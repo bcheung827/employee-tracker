@@ -1,3 +1,4 @@
+USE employee_db;
 INSERT INTO department (name)
 VALUES ("sales"),
     ("engineering"),
@@ -21,10 +22,10 @@ VALUES ("Sales Lead", 100000, 1),
 SELECT * FROM ROLE;
 
 INSERT INTO employee(first_name, last_name, role_id)
-VALUES ("Brandon", "Cheung", 2)
-    ("Teresa", "Vu", 3)
-    ("Ben", "Liu", 1)
-    ("Pio", "Park", 4)
-    ("Andy", "Li", 5)
+VALUES ("Brandon", "Cheung", 2),
+    ("Teresa", "Vu", 3),
+    ("Ben", "Liu", 1),
+    ("Pio", "Park", 4),
+    ("Andy", "Li", 5);
 
 SELECT * FROM EMPLOYEE;
