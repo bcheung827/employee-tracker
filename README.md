@@ -16,6 +16,10 @@
 
   ## Usage
   In the integrated terminal type node index and then a prompt should show in the command line where various questions will show to be answered. This is where the user can view/add/delete/update departments, roles, employees, and managers.
+  
+  <img src="employee-tracker.gif"><br>
+  Or view link here - [Screencastify](https://drive.google.com/file/d/1T1z5kqbr9eqLCWFrImMFALOKWmDCXe_W/view)
+  
 
   ## Testing
   Install node.js and test functionality

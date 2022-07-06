@@ -102,7 +102,7 @@ const addNewRole = () => {
   connection.query(`SELECT * FROM DEPARTMENT`, (err, res) => {
     if (err) throw err;
     res.forEach(dep => {
-      letqObj = {
+      let qObj = {
         name: dep.name,
         value: dep.id
       }
@@ -123,6 +123,7 @@ const addNewRole = () => {
       {
         type: "list",
         name: "department",
+        choices: departments,
         message: "What department is the new role in?"
       }
     ];
